@@ -1,7 +1,7 @@
 {
   "name": "ember-horizon",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember Data addon for Horizon",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -15,8 +15,12 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Miles Zimmerman",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mileszim/ember-horizon.git"
+  },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
     "ember-ajax": "0.7.1",
@@ -40,7 +44,10 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "horizon",
+    "rethinkdb",
+    "ember-data"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.6"
